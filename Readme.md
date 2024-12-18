@@ -4,15 +4,15 @@ The project shows the design and functioning of a basic CPU using Verilog.
 ## Approach
 At first, the following components are designed individually and then interconnected to get a functional CPU.
 
-ALU
-Arithmetic Unit
-Logic Unit
-Multiplexer
-Register (A, B, C, Instruction)
-Data Memory
-Instruction memory
-Program Counter
-Controller
+* ALU 
+* Arithmetic Unit
+* Logic Unit
+* Multiplexer
+* Register (A, B, C, Instruction)
+* Data Memory
+* Instruction memory
+* Program Counter
+* Controller
 
 ### ALU
 In computing, an arithmetic logic unit (ALU) is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers. It is a fundamental building block of many types of computing circuits, including the central processing unit (CPU) of computers, FPUs, and graphics processing units.
