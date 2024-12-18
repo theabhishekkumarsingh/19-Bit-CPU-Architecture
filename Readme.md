@@ -40,7 +40,7 @@ The different operations and the corresponding OPCODEs are mentioned below:
 It holds the address of the instructions stored in Instruction memory and controls the flow or sequence of operations performed by CPU.
 
 ### Control Unit(CU)
-The control unit (CU) is a component of a computer's central processing unit (CPU) that directs the operation of the processor. In our CPU, we used state machine approach. Three states are used to monitor the action of CPU. The three states used are reset, load and execute.
+The control unit (CU) is a component of a computer's central processing unit (CPU) that directs the operation of the processor. In our CU, we used state machine approach. Three states are used to monitor the action of CPU. The three states used are reset, load and execute.
 
 In reset state, we initialise all address to base address and code input to 0. All the signals going out from controller are 0.
 
