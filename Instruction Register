@@ -1,0 +1,16 @@
+//Instruction Register 
+module insReg(clk, opcode, loadIR, address, insIN);
+input clk;
+input [18:0] insIN;
+output reg [13:0]address;
+output reg [4:0]opcode;
+
+reg [18:0]temp;
+always@(posedge clk)begin
+    if(load == 1)begin
+        temp <= insIN;
+    end
+    address <= temp[13:0];
+    opcode <= temp [18:14];
+end
+endmodule
