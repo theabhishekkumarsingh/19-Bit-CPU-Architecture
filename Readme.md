@@ -1,4 +1,6 @@
-<img width="529" alt="Untitled" src="https://github.com/user-attachments/assets/4e352206-34f7-4463-8fb5-2d42b5accd57" /># 19-Bit-CPU-Implementation-using-Verilog
+<img width="529" alt="Untitled" src="https://github.com/user-attachments/assets/4e352206-34f7-4463-8fb5-2d42b5accd57" />
+
+# 19-Bit-CPU-Implementation-using-Verilog
 The project shows the design and functioning of a basic CPU using Verilog.
 
 ## Approach
