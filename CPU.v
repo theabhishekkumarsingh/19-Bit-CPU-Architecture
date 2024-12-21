@@ -17,7 +17,7 @@ reg eq;
 reg gt;
 reg lt;
 
-wire [13:0] curradd; wire [18:0] outIMd; wire [13:0] addressd; wire [5:0] opcodeD;
+  wire [13:0] curradd; wire [18:0] outIMd; wire [13:0] addressd; wire [4:0] opcodeD;
 wire loadIRd, loadAd, loadBd, loadCd, moded, we_DMd, selAd, selBd, loadPCd, incPCd;
 wire [13:0] execaddd; wire [18:0] dataAoutd; wire [18:0] dataBoutd; wire [31:0] outALUd;
 wire [31:0] currdat; wire [31:0] outDMd; wire [31:0] dataCoutd;
